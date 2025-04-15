@@ -1,68 +1,3 @@
-<<<<<<< HEAD
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-}
-
-.container {
-    width: 400px;
-    margin: 50px auto;
-    text-align: center;
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.game-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-input[type="number"] {
-    width: 50%;
-    height: 30px;
-    font-size: 20px;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-button {
-    width: 100px;
-    height: 40px;
-    font-size: 20px;
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #3e8e41;
-}
-
-.result-container {
-    margin-bottom: 20px;
-}
-
-#result {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-#hint {
-    font-size: 18px;
-    color: #666;
-}
-
-.attempts-container {
-    font-size: 18px;
-    color: #666;
-}
-
-=======
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(135deg, #4b6cb7, #182848);
@@ -152,4 +87,3 @@ body {
     margin-top: 10px;
   }
   
->>>>>>> ced5a35 (Enhance All the Files)
