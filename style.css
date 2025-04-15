@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -61,3 +62,94 @@ button:hover {
     color: #666;
 }
 
+=======
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #4b6cb7, #182848);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 420px;
+    background-color: #ffffff;
+    padding: 30px 25px;
+    border-radius: 15px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25);
+  }
+  
+  .game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="number"] {
+    width: 60%;
+    height: 35px;
+    font-size: 18px;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="number"]:focus {
+    border-color: #4b6cb7;
+    outline: none;
+  }
+  
+  button {
+    width: 120px;
+    height: 45px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+    transform: scale(1.05);
+  }
+  
+  .result-container {
+    margin: 20px 0;
+  }
+  
+  #result {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4b6cb7;
+    transition: color 0.3s ease;
+  }
+  
+  #hint {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .attempts-container {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+>>>>>>> ced5a35 (Enhance All the Files)
